@@ -7,7 +7,7 @@
 
 int main(int argc, char* argv[]) {
     if (argc < 2) {
-        std::cerr << "[Ошибка] Не указан путь к BMP файлу. Пример использования: " << argv[0] << " <путь_к_BMP_файлу>" << std::endl;
+        std::cerr << "[Error] Used example: " << argv[0] << " <Path_to_BMP_file>" << std::endl;
         return 1;
     }
 
